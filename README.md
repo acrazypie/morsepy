@@ -14,7 +14,7 @@ Supports letters, numbers, and punctuation symbols — perfect for small project
 
 ---
 
-🚀 Installation
+## 🚀 Installation
 
 You can install it directly from PyPI:
 
@@ -30,7 +30,7 @@ pip install -e .
 
 ---
 
-🧠 Usage
+## 🧠 Usage
 
 ```python
 from morsepy import encode, decode
@@ -52,7 +52,7 @@ Decoded: ciao mondo!
 
 ---
 
-📚 Features
+## 📚 Features
 
 -   🔤 Encode any text into Morse code
 -   🔁 Decode Morse code back to text
@@ -61,7 +61,7 @@ Decoded: ciao mondo!
 
 ---
 
-📦 Project Structure
+## 📦 Project Structure
 
 ```
 morsepy/
@@ -75,7 +75,7 @@ morsepy/
 
 ---
 
-🪪 License
+## 🪪 License
 
-Released under the MIT License  
+Released under the [MIT License](./LICENSE)  
 © 2025 Elisa
