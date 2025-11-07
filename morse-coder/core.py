@@ -60,10 +60,15 @@ morse_inverse = {v: k for k, v in morse.items()}
 
 
 def encode(text: str) -> str:
-    """Converte testo in codice Morse."""
+    """Translates text in morse code."""
     return " ".join(morse.get(c.lower(), "") for c in text)
 
 
 def decode(code: str) -> str:
-    """Converte codice Morse in testo."""
+    """Translates Morse code into text."""
     return "".join(morse_inverse.get(c, "") for c in code.split(" "))
+
+
+def compare(text: str, code: str) -> bool:
+    """Checks if the given text is the given code translated."""
+    return text == code
