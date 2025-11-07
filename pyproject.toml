@@ -1,5 +1,5 @@
 [project]
-name = "morsepy"
+name = "mores-coder"
 version = "1.0.0"
 description = "A simple Morse code encoder and decoder for Python."
 authors = [{ name = "Elisa Genesio", email = "genesio.elisa0@gmail.com" }]
