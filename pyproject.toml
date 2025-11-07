@@ -3,13 +3,12 @@ name = "morsepy"
 version = "1.0.0"
 description = "A simple Morse code encoder and decoder for Python."
 authors = [{ name = "Elisa Genesio", email = "genesio.elisa0@gmail.com" }]
-license = { text = "MIT" }
+license = "MIT"
 readme = "README.md"
 requires-python = ">=3.8"
 keywords = ["morse", "encoder", "decoder", "text", "python"]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent"
 ]
 
